@@ -22,19 +22,19 @@ export default function IndexPage() {
         <div className="flex flex-wrap justify-around items-center pb-20">
           <div>
             <CTA />
-            <ButtonToCode />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/cta.js"/>
           </div>
           <div>
             <PaymentInfo />
-            <ButtonToCode />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/payment.js"/>
           </div>
           <div>
             <TODO />
-            <ButtonToCode />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/todo.js"/>
           </div>
           <div className="w-2/3 mt-20 px-20">
             <Row />
-            <ButtonToCode />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/row.js"/>
           </div>
         </div>
       </div>
