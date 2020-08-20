@@ -2,7 +2,9 @@
 
 Free to use React + Tailwind components.
 
-## How to create a [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com) as a basic starting point:
+[Demo site](plugandplaycomponents.vercel.app)
+
+### How to create a [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com) as a basic starting point:
 
 ### Using `create-next-app`
 
