@@ -5,6 +5,12 @@ module.exports = {
       colors: {
         'accent-1': '#333',
       },
+      margin: {
+        '-6': '-6rem'
+      },
+      borderRadius: {
+        large: '.8rem'
+      },
     },
   },
   variants: {},
