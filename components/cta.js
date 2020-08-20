@@ -5,7 +5,7 @@ export default function CTA() {
     <div className="container relative bg-white mt-20 mb-5 mx-20 p-4 w-40 h-48
       rounded-large shadow-lg flex flex-col items-center">
 
-      <img src="/2247295.png" className="w-24 absolute -m-6"/>
+      <img src="/2247295.png" className="w-24 absolute -m-6" alt="person sitting using computer"/>
 
       <div className="font-sans text-gray-800 text-center mt-8">
         <p className="font-semibold text-xl">

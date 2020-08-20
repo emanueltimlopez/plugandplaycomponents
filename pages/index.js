@@ -3,6 +3,7 @@ import CTA from '../components/cta'
 import PaymentInfo from '../components/payment'
 import TODO from '../components/todo'
 import Row from '../components/row'
+import Head from 'next/head'
 
 function ButtonToCode({url}) {
   return (
@@ -13,6 +14,10 @@ function ButtonToCode({url}) {
 export default function IndexPage() {
   return (
     <div className="bg-gray-400">
+      <Head>
+        <title>Plug&Play Components</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Nav />
       <div>
         <h1 className="text-4xl mb-5 px-8 text-accent-1">

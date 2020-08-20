@@ -5,7 +5,7 @@ export default function Row() {
     <div className="rounded-large p-5 mb-5 flex bg-white items-center
       justify-between shadow-xs text-sm px-10 font-sans">
       <div className="flex w-40 justify-between">
-        <img src="/01.jpg" className="w-12 h-12 mr-5"/>
+        <img src="/01.jpg" className="w-12 h-12 mr-5" alt="avatar"/>
 
         <div className="flex flex-col">
           <p className="font-bold">Steven Cross</p>
@@ -24,8 +24,8 @@ export default function Row() {
       </div>
 
       <div className="flex w-20 justify-between">
-        <img src="/star.svg" className="w-5 h-5 cursor-pointer"/>
-        <img src="/chevron.svg" className="w-5 h-5 cursor-pointer"/>
+        <img src="/star.svg" className="w-5 h-5 cursor-pointer" alt="star"/>
+        <img src="/chevron.svg" className="w-5 h-5 cursor-pointer" alt="chevron"/>
       </div>
 
     </div>
