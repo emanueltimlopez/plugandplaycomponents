@@ -3,6 +3,7 @@ import CTA from '../components/cta'
 import PaymentInfo from '../components/payment'
 import TODO from '../components/todo'
 import Row from '../components/row'
+import Market from '../components/market'
 import Head from 'next/head'
 
 function ButtonToCode({url}) {
@@ -52,9 +53,13 @@ export default function IndexPage() {
             <TODO />
             <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/todo.js"/>
           </div>
-          <div className="w-2/3 mt-20 px-20">
+          <div className="w-full md:w-2/3 mt-20 px-2 md:px-10">
             <Row />
             <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/row.js"/>
+          </div>
+          <div className="w-full md:w-1/3 mt-20 px-2 md:px-5">
+            <Market />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/market.js"/>
           </div>
         </div>
       </div>
