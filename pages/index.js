@@ -5,6 +5,7 @@ import TODO from '../components/todo'
 import Row from '../components/row'
 import Market from '../components/market'
 import Head from 'next/head'
+import Members from '../components/members'
 
 function ButtonToCode({url}) {
   return (
@@ -41,6 +42,10 @@ export default function IndexPage() {
         </ul>
 
         <div className="flex flex-wrap justify-around items-center pb-20">
+          <div>
+            <Members />
+            <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/members.js"/>
+          </div>
           <div>
             <CTA />
             <ButtonToCode url="https://github.com/emanueltimlopez/plugandplaycomponents/blob/master/components/cta.js"/>
